@@ -1,0 +1,23 @@
+:root {
+  --text: #ffffff;
+  --bg: #090909;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  height: auto;
+  min-height: 80vh;
+  padding: 15px;
+}
