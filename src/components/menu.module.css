@@ -1,11 +1,12 @@
 
 .navBar{
   width: 100%;
-  position: fixed;
+  position: fixed !important;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2vw;
   background-color:var(--bg);
   color: var(--text);
+  padding-top: 50px;
 }
