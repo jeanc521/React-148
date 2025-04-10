@@ -7,7 +7,7 @@ export const Menu = (props) => {
             //     <p><a href="#s2">{props.option02}</a></p>
             //     <p><a href={'/contact'}>{props.option03}</a></p>
             // </nav>
-            <nav className={`navbar  navbar-fixed navbar-expand-lg navbar-dark bg-dark ${style.navBar}` }>
+            <nav className={`navbar navbar-scroll-behavior  navbar-fixed navbar-expand-lg navbar-dark bg-dark ${style.navBar}` }>
   <div className="container-fluid">
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
