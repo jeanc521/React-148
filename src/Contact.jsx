@@ -11,7 +11,7 @@ import 'leaflet-defaulticon-compatibility';
 
 
 function Contact() {
-  const position = [51.505, -0.09];
+  const position = [-25.6825895,-49.2892931];
 
   return ( 
     <>

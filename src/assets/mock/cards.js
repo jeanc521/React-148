@@ -4,7 +4,7 @@ import photo2 from '../images/letter-c.png'
 
 export const cards = [
     {
-        text: "Linguagens", img: photo1
+        text: "Perfil", img: photo1, text01: "Ola, sou Jean tenho 18, faço curso no Senai de TDS desde 2024 quero seguir na area de programação. Ja adiquiri conhecimento de Logica de programação,Java, C, Html, css, javascript,modelagem de sistemas e react."
       
     },
     {
