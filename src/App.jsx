@@ -1,6 +1,7 @@
 import style from './App.module.css'
 import { cards } from './assets/mock/cards'
 import { Menu } from './components/menu'
+import {Footer} from './Footer'
 // import img01 from './assets/images/img01.jpg'
 import { useState } from 'react'
 
@@ -42,6 +43,7 @@ function App() {
                <img src={item.img} alt={item.text} width={80} height={"auto"}/>
               <h5>{item.text}</h5>
              <p>{item.text01}</p>
+            
             </div>
           )
         })}
@@ -54,6 +56,7 @@ function App() {
           <textarea placeholder='Insira mensagem' id='message' name='message' value={formData.message} onChange={handleChange} cols="30" rows="10" required></textarea>
           <button onClick={handleZap}>Enviar mensagem</button>
       </section>
+      <Footer />
      </main>
     </>
   )
