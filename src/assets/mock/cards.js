@@ -1,5 +1,6 @@
-import photo1 from '../images/java-02.png'
+import photo1 from '../images/me.jpg'
 import photo2 from '../images/letter-c.png'
+import photo3 from '../images/java-02.png'
 //  import photo3 from '../images/progdor.jfif'
 
 export const cards = [
@@ -8,7 +9,7 @@ export const cards = [
       
     },
     {
-        text: "Java", img: photo1, text01: "Comecei java no curso de Tecnico de desenvolvimento de sistema no senia no meio do mes de agosto de 2024, gostei bastante de java e consegui fazer alguns programas em java. "
+        text: "Java", img: photo3, text01: "Comecei java no curso de Tecnico de desenvolvimento de sistema no senia no meio do mes de agosto de 2024, gostei bastante de java e consegui fazer alguns programas em java. "
     },
     {
         text: "C", img: photo2,  text01: "Comecei java no curso de Tecnico de desenvolvimento de sistema no senia no meio do mes de agosto de 2024, gostei bastante de java e consegui fazer alguns programas em java. "
